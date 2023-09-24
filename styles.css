@@ -1,0 +1,442 @@
+:root
+{
+    --dargray:#000;
+    --brightred:#f94230;
+     --white:#fff;
+     --lightred:#f9433dcc;
+
+}
+
+body
+{
+    box-sizing: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--dargray);
+    
+}
+
+.nav-container
+{
+    width: 100%;
+    /* height: 100px; */
+    background-color: var(--dargray);
+}
+
+.navbar
+{
+    display: grid;
+    grid-template-columns: auto 0.2fr 1fr;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#logo
+{
+   color: var(--white);
+   justify-self: star;
+   margin-left: 20px;
+}
+
+.nav-menu
+{
+   list-style: none;
+   display: grid;
+   grid-template-columns: repeat(5,auto);
+   text-align: center;
+   width: 70%;
+   justify-self: end;
+  
+}
+
+.menu-item
+{ 
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu-item:hover
+{
+    color: var(--brightred);
+    transition: all 0.2s ease-out;
+}
+
+.signup
+{
+    background-color: var(--brightred);
+    color: var(--white);
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.signup:hover
+{
+   border-radius: 4px;
+   padding: 5px 15px;
+   background-color: transparent;
+   border: 1px solid var(--brightred);
+   transition: all 0.8s ease-out;
+   color: var(--white);
+}
+
+.menu-toggle .bar 
+{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: var(--white);
+}
+
+.main-container
+{
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    
+}
+
+.main-content
+{
+    margin-left: 50px;
+    
+   
+}
+
+.main-content p
+{
+         font-size: 20px;
+         
+}
+
+.img-container img
+{
+   
+    width: 60%;
+    margin: 0;
+    
+}
+
+.img-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-btn
+{
+    background-color: var(--brightred);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    border: none;
+   
+}
+
+.main-btn:hover
+{
+    background-color: rgb(48, 166, 206);
+    transition-duration: .4s ;
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+.main
+{
+    margin-top: 80px;
+}
+
+.text-content
+{
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    row-gap: 5px;
+    
+   
+}
+
+#main-heading
+{
+    font-size: 40px;
+}
+
+/* styling the services section */
+
+.services-container
+{
+    color: white;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    margin-top: 105px;
+    
+
+}
+
+.services-container h1
+{
+    font-size: 45px;
+}
+
+.services-container p{
+    font-size: 30px;
+}
+
+.service-section
+{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    column-gap: 20px;
+   
+    
+    row-gap: 60px;
+   
+}
+
+
+
+
+.service
+{
+    width: 300px;
+    height: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 20px;
+    background-color: rgb(247, 242, 242);
+    width: 70%;
+    margin-left: 80px;
+    
+   
+}
+.service:hover
+{
+    /* width: 300px;
+    height: 350px; */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: 10px 6px 30px rgb(81, 76, 76); */
+    border-radius: 20px;
+    background-color: rgb(138, 134, 134);
+    width: 70%;
+    margin-left: 80px;
+    
+   
+}
+
+
+
+.image img
+{
+   height: 200px;
+    width: 200px;
+}
+
+.texts
+{
+    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/* styling the expertice section */
+
+
+.expertise-section
+{
+    color: white;
+    margin-top: 100px;
+    
+    
+}
+
+
+.expertise-section
+{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      place-items: center;
+      
+      
+}
+.div img
+{
+    width: 200px;
+}
+
+.div
+{
+    background-color: rgb(247, 242, 242);
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    color: black;
+    /* display: grid;
+    place-items: center; */
+    padding: 15px;
+    margin-buttom: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div:hover
+{
+    background-color: rgb(138, 134, 134);
+}
+
+.two img
+{
+    width: 330px;
+    height: 120px;
+}
+
+.heading h1
+{
+    
+    
+    color: white;
+    margin-top: 150px;
+}
+/* styling the feedback section */
+
+.feedback-section
+{
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    color: black;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-columns: 0.5fr auto;
+    border-radius: 15px;
+
+}
+
+.feedback-section img
+{
+    width: 150px;
+    margin-top: 8px;
+    margin-left: 35px;
+    
+}
+
+
+.feedback-container
+{
+    display: grid;
+    place-items: center;
+    
+}
+
+.feedback-container h1
+{
+    margin-top: 100px;
+}
+
+
+/* styling the footer section */
+
+.footer-section
+{
+    height: 200px;
+    background-color: #a4b2b8;
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* mobile design  */
+
+
+@media screen and (max-width:768px){
+    
+ /* .nav-container
+    {
+        position: relative;
+    }
+
+    .nav-menu
+    {
+        display: grid;
+        grid-template-columns: auto;
+        background: var(--brightred);
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        margin-top: 80px; 
+     } */
+
+     .service-section
+{
+    margin-top: 70px;
+   
+
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 60px;
+   
+}
+    
+.service
+{
+    width: 280px;
+    height: 300px;
+}
+
+
+.expertise-section
+{
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 60px;
+
+}
+
+
+}
